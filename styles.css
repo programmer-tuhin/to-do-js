@@ -1,0 +1,66 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html,body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Martian Mono', monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+header h1{
+    font-weight: 800;
+    padding-top: 10px;
+}
+.container{
+   width: 400px;
+   max-height: 400px;
+   overflow: auto;
+}
+label{
+    font-size: 24px;
+}
+#input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: 500;
+}
+#addToDo{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 800;
+}
+.to-dos{
+    margin-top: 20px;
+}
+.para-style{
+    margin: 0;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 24px;
+}
+footer p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+abbr{
+    text-decoration: none;
+}
